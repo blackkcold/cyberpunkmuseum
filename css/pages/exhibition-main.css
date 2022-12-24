@@ -1,0 +1,172 @@
+/* this is stylesheet for exhibition page*/
+
+/* General for default attributes of this page */
+body {
+    background: url(../assets/img/search-background.png);
+    background-color: black;
+    background-size: cover;
+}
+
+.exhibition-navitem-desk {
+    -ms-transform: rotate(-15deg);
+    /* IE 9 */
+    -moz-transform: rotate(-15deg);
+    /* Firefox */
+    -webkit-transform: rotate(-15deg);
+    /* Safari & Chrome */
+    -o-transform: rotate(-15deg);
+    /* General Usage */
+    transform: rotate(-15deg);
+}
+
+.exhibition-navitem-desk a {
+    padding: 10px 20px;
+    margin: 0px 20px;
+
+    color: black;
+    background-color: white;
+}
+
+/* Main - Codes */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    position: absolute;
+    height: 70%;
+    width: 100%;
+}
+
+.results-block {
+    margin: 15px;
+}
+
+.desc-img-robot {
+    /* z-index: 1; */
+    position: fixed;
+    right: -40px;
+    bottom: -20px;
+
+    width: 40%;
+}
+
+.desc-img-robot img {
+    width: 100%;
+
+    transition: .5s;
+}
+
+.results-flow {
+    gap: 15px;
+
+    width: 80%;
+    height: auto;
+}
+
+.results-flow a{
+    text-decoration: none;
+    color: white;
+
+    transition: 1s;
+}
+
+.results-card {
+    transition: 1s;
+    align-items: center;
+
+    background-color: rgb(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow:  0px 3px 6px 0px rgba(0,0,0,0.2);
+
+    height: 150px;
+    width: auto;
+}
+
+.results-card h5 {
+    font-family: 'Rationale';
+    font-size: 30px;
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    text-align: justify;
+
+    margin: 0px;
+}
+
+.card-bookinfo {
+    gap: 10px;
+
+    width: auto;
+}
+
+.card-author-info {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-author-info p{
+    font-size: 1em;
+    font-weight: 700;
+    font-style: italic;
+
+    
+    width: 100%;
+
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.card-author-info p:last-child{
+    font-size: 10px;
+    font-weight: 300;
+    font-style: normal;
+
+    width: fit-content;
+
+    text-transform: capitalize;
+}
+
+.result-card-intro-block {
+    background-color: rgb(255, 255, 255, 0.1);
+    /* -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px); */
+    box-shadow:  0px 3px 6px 0px rgba(0,0,0,0.2);
+
+    overflow: hidden;
+
+    height: auto;
+    width: auto;
+}
+
+.result-card-intro-block section {
+    font-size: 1em;
+    font-weight: 300;
+
+    overflow: hidden;
+}
+
+/* animation */
+.desc-img-robot img:hover{
+    filter: brightness(2);
+}
+
+.results-card:hover {
+    background-color: rgb(243, 237, 25, 1);
+}
+
+.results-card:hover h5, .results-card:hover p,.results-card:hover section{
+    color: black;
+}
+
+/* footer for search page */
+.copyright-icon {
+    justify-content: right;
+
+    margin: 0px 30px;
+}
+
+.copyright-icon div{
+    display: none;
+}
