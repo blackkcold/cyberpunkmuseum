@@ -2,12 +2,14 @@
 
 /* General for default attributes of this page */
 body {
-    background: url(../assets/img/search-background.png);
+    background: url(../../assets/img/search-background.png);
     background-color: black;
     background-size: cover;
 }
 
 .search-navitem-desk {
+    color: black;
+
     -ms-transform: rotate(-15deg);
     /* IE 9 */
     -moz-transform: rotate(-15deg);

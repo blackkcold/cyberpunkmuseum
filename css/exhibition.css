@@ -1,6 +1,7 @@
 /* import the general components */
 @import 'general/default.css';
 @import 'general/header.css';
+@import 'general/header-logo.css';
 @import 'general/footer.css';
 /* this is index stylesheet */
 @import 'pages/exhibition-main.css';

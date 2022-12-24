@@ -43,6 +43,8 @@ header {
 
     list-style-type: none;
 
+    padding: 0px;
+
     transition: 1s;
 }
 

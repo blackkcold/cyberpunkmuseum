@@ -2,11 +2,23 @@
 
 /* General for default attributes of this page */
 body {
-    background: url(../assets/img/search-background.png);
+    background: url(../../assets/img/search-background.png);
     background-color: black;
     background-size: cover;
 }
 
+/* adopt the header for exhibition page's small logo */
+header {
+    align-items: center;
+    margin: 30px 10px;
+}
+
+.logo {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* exhibition page indicator */
 .exhibition-navitem-desk {
     -ms-transform: rotate(-15deg);
     /* IE 9 */
