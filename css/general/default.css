@@ -1,0 +1,59 @@
+/* default setting of style */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    background: url(../assets/img/background.png);
+    background-color: black;
+    background-size: cover;
+
+    margin: 0px;
+    transition: 1s;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px;
+    transition: 1s;
+}
+
+p {
+    font-size: 10px;
+}
+
+.textalign-left {
+    text-align: left;
+}
+
+.textalign-centre {
+    text-align: center;
+}
+
+.textalign-right {
+    text-align: right;
+}
+
+.flex-c {
+    display: flex;
+}
+
+.flex-column-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-15px {
+    margin: 15px;
+}
+
+.margin-30px {
+    margin: 30px;
+}

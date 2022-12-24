@@ -1,0 +1,34 @@
+/* this stylesheet is for footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    position: fixed;
+    margin: 0 auto;
+    bottom: 30px;
+
+    width: 100%;
+    
+    transition: 1s;
+}
+
+.copyright-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    margin: 0px 90px 0px 30px;
+
+    transition: 1s;
+}
+
+footer div, .copyright-icon {
+    font-size: 10px;
+}
+
+footer img {
+    width: 10px;
+    object-fit: cover;
+}

@@ -1,0 +1,95 @@
+/* this is stylesheet for main of index */
+
+/* General for default attributes of this page */
+body {
+    background: url(../assets/img/background.png);
+    background-color: black;
+    background-size: auto;
+}
+
+/* Main - Codes */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    position: absolute;
+    height: 70%;
+    width: 100%;
+}
+
+.start-btn {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.start-btn svg {
+    margin-right: 120px;
+}
+
+.start-btn-anime path{
+    transition: 0.5s;
+}
+
+.start-btn-anime path:hover {
+    fill: #2cd2e7;
+}
+
+.start-btn-anime circle{
+    transition: 0.5s;
+}
+
+.start-btn-anime circle:hover {
+    fill: #f3ed19;
+    stroke: #f3ed19;
+}
+
+#start-btn-desk {
+    display: block;
+}
+
+#start-btn-mobile {
+    display: none;
+}
+
+/*  Abandon Code for the Canvas Version of Start Button
+
+.startbtn canvas {
+    width: 400px;
+    height: 200px;
+    background-color: black;
+
+    margin-right: 120px;
+} */
+
+#index-slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan-text-align {
+    text-align: left;
+}
+
+#index-slogan img {
+    object-fit: cover;
+    height: 10px;
+}
+
+#slogan-img-mobile {
+    display: none;
+}
+
+#slogan-img-desk {
+    display: inline;
+}
+
+#indexslogan div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    margin: 0 15px;
+}

@@ -1,0 +1,101 @@
+/* this stylesheet is for header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    margin: 10px;
+    height: 100%;
+}
+
+#title {
+    font-weight: 900;
+    font-size: 100px;
+    transition: 1s;
+}
+
+#title a{
+    text-decoration: none;
+    color: white;
+
+    transition: 1s;
+}
+
+#title a:hover{
+    color: #f3ed19;
+}
+
+#title img {
+    width: 100px;
+    transition: 1s;
+}
+
+.navbar {
+    margin-right: 30px;
+
+    transition: 1s;
+}
+
+.navbar ul {
+    display: flex;
+    justify-items: right;
+
+    list-style-type: none;
+
+    transition: 1s;
+}
+
+.navbar a {
+    font-weight: 900;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+
+    padding: 10px 20px;
+    margin: 0px 20px;
+
+    transition: 1s;
+}
+
+.navbar li {
+    transition: 1s;
+}
+
+.navbar a:hover {
+    color: black;
+
+    background-color: #f3ed19;
+}
+
+.navbar li:hover {
+    -ms-transform: rotate(-15deg);
+    /* IE 9 */
+    -moz-transform: rotate(-15deg);
+    /* Firefox */
+    -webkit-transform: rotate(-15deg);
+    /* Safari & Chrome */
+    -o-transform: rotate(-15deg);
+    /* General Usage */
+    transform: rotate(-15deg);
+}
+
+.dropdown {
+    display: none;
+
+    transition: 1s;
+}
+
+/*  */
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo span {
+    transition: 1s;
+}
+
+.logo a :hover{
+    color: #f3ed19;
+}

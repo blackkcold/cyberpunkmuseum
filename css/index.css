@@ -1,0 +1,8 @@
+/* import the general components */
+@import 'general/default.css';
+@import 'general/header.css';
+@import 'general/footer.css';
+/* this is index stylesheet */
+@import 'index-main.css';
+/* this is for general responsive design */
+@import 'general/responsive.css'

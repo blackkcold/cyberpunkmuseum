@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Orientalism Research Centre</title>
+
+    <link rel="stylesheet" href="css/outside-importlist.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/vue.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <a href="Index.html">
+                <span>/Cyberpunk</span>
+                <img src="assets/img/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li class="exhibition-navitem-desk"><a href="#">Exhibition</a></li>
+                <li class="search-navitem-desk"><a href="Search.html">Search</a></li>
+                <li class="content-navitem-desk"><a href="#">Content</a></li>
+                <li class="help-navitem-desk"><a href="#">Help</a></li>
+                <li class="about-navitem-desk"><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="dropdown">
+            <span>
+                <img src="assets/img/icons8-near-me-96.png" alt="navbar btn">
+            </span>
+            <div class="dropdown-content">
+                <ul>
+                    <li class="exhibition-navitem-mobile"><a href="#">Exhibition</a></li>
+                    <li class="search-navitem-mobile"><a href="Search.html">Search</a></li>
+                    <li class="content-navitem-mobile"><a href="#">Content</a></li>
+                    <li class="help-navitem-mobile"><a href="#">Help</a></li>
+                    <li class="about-navitem-mobile"><a href="#">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="start-btn">
+            <svg id="start-btn-desk" width="400" height="253" viewBox="0 0 400 253" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g class="start-btn-anime" clip-path="url(#clip0_224_910)">
+                    <script type="text/javascript">
+                        function change(evt) {
+                            var target = evt.target;
+                            var colour = target.getAttribute("fill");
+
+                            colour = "red";
+
+                            target.setAttribute("fill", colour);
+                        }
+                        function changeR(evt) {
+                            var target = evt.target;
+                            var colour = target.getAttribute("fill");
+
+                            colour = "black";
+
+                            target.setAttribute("fill", colour);
+                        }
+                    </script>
+                    <circle cx="200" cy="200" r="199.684" stroke="white" stroke-width="0.5" />
+                    <a start-btn-anime xlink:href="#" target="_blank">
+                        <circle cx="200" cy="200" r="93.5229" fill="white" stroke="white" stroke-width="0.5" />
+                        <path d="M198.736 224.96L242.022 180.727H155.45L198.736 224.96Z" fill="black"/>
+                        <path d="M197.472 175.671L214.218 158.61H180.727L197.472 175.671Z" fill="black"/>
+                    </a>
+                </g>
+                <defs>
+                    <clipPath id="clip0_224_910">
+                        <rect width="400" height="252.765" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <svg id="start-btn-mobile" width="200" height="127" viewBox="0 0 200 127" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_241_823)">
+                    <circle cx="100" cy="100" r="99.842" stroke="white" stroke-width="0.5" />
+                    <a xlink:href="#" target="_blank">
+                        <circle cx="100" cy="100" r="46.7615" fill="white" stroke="white" stroke-width="0.5" />
+                        <path d="M99.3681 112.48L121.011 90.3633H77.7251L99.3681 112.48Z" fill="black"
+                            onmouseover="change(evt)" onmouseout="changeR(evt)" />
+                        <path d="M98.7361 87.8357L107.109 79.3049H90.3633L98.7361 87.8357Z" fill="black"
+                            onmouseover="change(evt)" onmouseout="changeR(evt)" />
+                    </a>
+                </g>
+                <defs>
+                    <clipPath id="clip0_241_823">
+                        <rect width="200" height="126.382" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <!-- <canvas id="startbtn">Your Browser does not support HTML5 canvas tag</canvas> -->
+        </div>
+        <div id="index-slogan">
+            <img src="assets/img/qrcodetext_s.png" alt="###">
+            <div class="slogan-text-align">
+                <h5>
+                    This is the Cyberpunk Collection, welcome to cyber century, and the secret of information future is
+                    unfolding to you
+                </h5>
+                <p>
+                    This library quotes and uses all relevant content strictly in accordance with copyright and the law,
+                    if you have any questions please click here
+                </p>
+            </div>
+            <img id="slogan-img-mobile" src="assets/img/qrcodetext_s.png" alt="###">
+            <img id="slogan-img-desk" src="assets/img/qrcodetext.png" alt="###">
+        </div>
+    </main>
+</body>
+<footer>
+    <div class="copyright-icon">
+        <div>
+            <img src="assets/img/icon1.png" alt="small icons here">
+            <img src="assets/img/icon2.png" alt="small icons here">
+        </div>
+        <p>©2022 All Rights Reserved by Haoran Yang</p>
+    </div>
+    <script src="js/index.js"></script>
+</footer>
+
+</html>
