@@ -40,7 +40,7 @@ main {
     transition: 0.5s;
 }
 
-.start-btn-anime circle:hover {
+.circle1-start-btn-anime:hover {
     fill: #f3ed19;
     stroke: #f3ed19;
 }

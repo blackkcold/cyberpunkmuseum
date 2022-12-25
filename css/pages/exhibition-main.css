@@ -14,8 +14,12 @@ header {
 }
 
 .logo {
-    margin: 0px;
+    margin-left: 30px;
     padding: 0px;
+}
+
+.logo a {
+    font-family: 'Roboto Condensed';
 }
 
 /* exhibition page indicator */
@@ -41,138 +45,61 @@ header {
 
 /* Main - Codes */
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-
     position: absolute;
-    height: 70%;
     width: 100%;
 }
 
-.results-block {
-    margin: 15px;
+.ctbNctb {
+    /* gap: 50px; */
+
+    justify-content: space-between;
 }
 
-.desc-img-robot {
-    /* z-index: 1; */
-    position: fixed;
-    right: -40px;
-    bottom: -20px;
+/* this is content cover block for media */
+.content-cover-block {
+    /* overflow: hidden; */
+
+    width: 50%;
+}
+
+.content-cover-block img{
+    width: 100%;
+}
+
+.citation-CCB {
+    justify-content: end;
+    gap: 30px;
+}
+
+.citation-CCB img {
+    width: 10%;
+}
+
+.citation-CCB p {
+    font-family: 'Libre Barcode 128';
+    font-size: 20px;
+
+    margin: 0;
+    margin-top: 8px;
+}
+
+/* this is content text block for text */
+.content-text-block {
+    background: url('../../assets/svg/Info\ Block\ BG.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
 
     width: 40%;
 }
 
-.desc-img-robot img {
-    width: 100%;
-
-    transition: .5s;
-}
-
-.results-flow {
-    gap: 15px;
-
-    width: 80%;
-    height: auto;
-}
-
-.results-flow a{
-    text-decoration: none;
-    color: white;
-
-    transition: 1s;
-}
-
-.results-card {
-    transition: 1s;
-    align-items: center;
-
-    background-color: rgb(0, 0, 0, 0.5);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    box-shadow:  0px 3px 6px 0px rgba(0,0,0,0.2);
-
-    height: 150px;
-    width: auto;
-}
-
-.results-card h5 {
-    font-family: 'Rationale';
-    font-size: 30px;
-    font-weight: 700;
-    
-    text-transform: uppercase;
-    text-align: justify;
-
-    margin: 0px;
-}
-
-.card-bookinfo {
-    gap: 10px;
-
-    width: auto;
-}
-
-.card-author-info {
-    justify-content: space-around;
-    align-items: center;
-}
-
-.card-author-info p{
-    font-size: 1em;
-    font-weight: 700;
-    font-style: italic;
-
-    
-    width: 100%;
-
-    text-transform: capitalize;
-    margin: 0px;
-}
-
-.card-author-info p:last-child{
-    font-size: 10px;
-    font-weight: 300;
-    font-style: normal;
-
-    width: fit-content;
-
-    text-transform: capitalize;
-}
-
-.result-card-intro-block {
-    background-color: rgb(255, 255, 255, 0.1);
-    /* -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px); */
-    box-shadow:  0px 3px 6px 0px rgba(0,0,0,0.2);
-
-    overflow: hidden;
-
-    height: auto;
-    width: auto;
-}
-
-.result-card-intro-block section {
-    font-size: 1em;
-    font-weight: 300;
-
-    overflow: hidden;
+.frame-ctb {
+    margin: 30px;
 }
 
 /* animation */
-.desc-img-robot img:hover{
-    filter: brightness(2);
-}
 
-.results-card:hover {
-    background-color: rgb(243, 237, 25, 1);
-}
 
-.results-card:hover h5, .results-card:hover p,.results-card:hover section{
-    color: black;
-}
-
-/* footer for search page */
+/* footer */
 .copyright-icon {
     justify-content: right;
 
