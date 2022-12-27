@@ -1,0 +1,185 @@
+/* this is stylesheet for result page belongs to content page */
+
+/* General for default attributes of this page */
+body {
+    background: url(../../assets/img/content-background.png) no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+.content-navitem-desk {
+    color: black;
+
+    -ms-transform: rotate(-15deg);
+    /* IE 9 */
+    -moz-transform: rotate(-15deg);
+    /* Firefox */
+    -webkit-transform: rotate(-15deg);
+    /* Safari & Chrome */
+    -o-transform: rotate(-15deg);
+    /* General Usage */
+    transform: rotate(-15deg);
+}
+
+.content-navitem-desk a {
+    padding: 10px 20px;
+    margin: 0px 20px;
+
+    color: black;
+    background-color: white;
+}
+
+.content-btn {
+    shape-rendering: geometricPrecision;
+    transition: .5s;
+}
+
+.content-btn:hover {
+    fill: #f3ed19;
+}
+
+/* Main - Codes */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    position: absolute;
+    height: 70%;
+    width: 100%;
+}
+
+.search-bar {
+    justify-content: center;
+    align-items: center;
+
+    background:url('../../assets/svg/Search-Bar.svg') no-repeat center center;
+    width: 566px;
+    height: 89px;
+
+    color: white;
+}
+
+.search-bar input:first-child {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+
+    color: white;
+
+    margin: 30px;
+}
+
+.search-bar input:first-child{
+    flex: 8;
+}
+
+.search-bar input:first-child:focus{
+    outline: none;
+
+    border: 0px;
+    border-color: transparent;
+}
+
+#submit-btn-search-bar{
+        background-color: transparent;
+        border: 0px transparent;
+        
+        flex: 2;
+        height: 100%;
+}
+
+#submit-btn-search-bar:hover .search-bar svg path{
+    fill: black;
+}
+
+/* content browser block style */
+.content-browser-block {
+    gap: 30px;
+
+    margin: 30px;
+}
+
+.column-cbb {
+    flex: 1;
+    gap: inherit;
+}
+
+.card-cbb {
+    justify-content: center;
+    align-items: center;
+
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+.bg-card-cbb {
+    justify-content: end;
+    align-items: center;
+
+    background: url('../../assets/img/neuromancer_cover.png') no-repeat center center;
+    background-color: black;
+    background-size: cover;
+
+    width: 90%;
+    height: 300px;
+
+    margin: 20px;
+}
+
+.info-card-cbb {
+    padding: 20px;
+
+    background: rgb(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+.info-card-cbb h5{
+    font-family: 'Rationale';
+    font-size: 40px;
+
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.author-info-card-cbb p{
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+
+    text-align: center;
+
+    margin: 0;
+}
+
+.author-info-card-cbb :last-child{
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.type-card-cbb {
+    padding: 20px;
+
+}
+
+/* animation */
+
+/* footer */
+.copyright-icon {
+    justify-content: right;
+
+    margin: 0px 30px;
+}
+
+.copyright-icon div{
+    display: none;
+}
