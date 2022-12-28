@@ -4,7 +4,7 @@
 @import 'general/footer.css';
 @import 'general/header-logo.css';
 /* this is index stylesheet */
-@import 'pages/search-main.css';
+/* @import 'pages/search-main.css'; */
 @import 'pages/content-main.css';
 /* this is for general responsive design */
 @import 'general/responsive.css'

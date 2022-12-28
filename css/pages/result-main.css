@@ -172,6 +172,18 @@ main {
 }
 
 /* footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    /* position: fixed; */
+    margin-bottom: 30px;
+
+    width: 100%;
+    
+    transition: 1s;
+}
+
 .copyright-icon {
     justify-content: right;
 

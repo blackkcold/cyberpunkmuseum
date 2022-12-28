@@ -40,25 +40,141 @@ body {
 
 /* Main - Codes */
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-
-    position: absolute;
-    height: 70%;
     width: 100%;
 }
 
-/* animation */
+.abt-content-blk {
+    width: 80%;
+    margin: 0 auto;
 
-
-/* footer */
-.copyright-icon {
-    justify-content: right;
-
-    margin: 0px 30px;
+    transition: 1s;
 }
 
-.copyright-icon div{
+.bg-acb {
+    gap: 50px;
+
+    background-color: rgb(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+
+    padding: 30px;
+}
+
+.bg-acb h5{
+    font-family: 'Rationale';
+    font-weight: 300;
+    font-size: 40px;
+
+    text-transform: uppercase;
+
+    margin: 0;
+}
+
+.bg-acb p{
+    font-size: 20px;
+}
+
+.concept-acb {
+    gap: 50px;
+}
+
+.concept-acb img{
+    object-fit: contain;
+    width: 400px;
+}
+
+.reflist-acb {
+    gap: 30px;
+    text-align: center;
+}
+
+.reflist-acb div {
+    gap: 10px;
+
+    background-color: rgb(255, 255, 255,0.1);
+
+    padding: 30px;
+}
+
+.reflist-acb div p{
+    text-align: justify;
+
+    background-color: rgb(255, 255, 255,0.1);
+
+    padding: 5px 10px;
+    margin: 0;
+
+    transition: .5s;
+}
+
+.collab-acb {
+    gap: 30px;
+
+    text-align: center;
+}
+
+.box-collab-acb {
+    gap: 10px;
+
+    background-color: rgb(255, 255, 255,0.1);
+
+    padding: 30px;
+}
+
+.col-box-collab-acb {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: rgb(255, 255, 255,0.1);
+
+    padding: 30px;
+}
+
+.col-box-collab-acb p {
+    background-color: rgb(255, 255, 255,0.1);
+
+    text-transform: uppercase;
+
+    padding: 5px 10px;
+    margin: 0;
+
+    transition: .5s;
+}
+
+
+/* animation */
+.reflist-acb div p:hover {
+    background-color: #f3ed19;
+
+    color: black;
+}
+
+.col-box-collab-acb p:hover {
+    background-color: #f3ed19;
+
+    color: black;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    position: static;
+
+    width: 100%;
+    
+    transition: 1s;
+}
+
+.copyright-icon {
+    justify-content: center;
+
+        padding: 30px 0px;
+}
+
+.copyright-icon div {
     display: none;
 }

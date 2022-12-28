@@ -4,6 +4,7 @@
 @import 'general/footer.css';
 @import 'general/header-logo.css';
 /* this is index stylesheet */
+@import 'components/collection-slide.css';
 @import 'pages/about-main.css';
 /* this is for general responsive design */
 @import 'general/responsive.css'
