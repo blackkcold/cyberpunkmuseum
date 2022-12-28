@@ -98,11 +98,15 @@ main {
     gap: 30px;
 
     margin: 30px;
+
+    transition: .5s;
 }
 
 .column-cbb {
     flex: 1;
     gap: inherit;
+
+    transition: .5s;
 }
 
 .card-cbb {
@@ -138,13 +142,15 @@ main {
     border: 3px;
     border-color: white;
     border-style: solid;
+    
+    transition: .5s;
 }
 
 .info-card-cbb h5{
     font-family: 'Rationale';
     font-size: 40px;
 
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -167,11 +173,28 @@ main {
 }
 
 .type-card-cbb {
-    padding: 20px;
+    padding: 10px 20px;
+    margin: 20px;
 
+    background-color: #ff5176;
+}
+
+.type-card-cbb p {
+    font-weight: 500;
+    font-size: 1em;
+    text-transform: uppercase;
+
+    margin: 0;
 }
 
 /* animation */
+.card-cbb :hover {
+    border-color: #f3ed19;
+}
+
+.card-cbb :hover .info-card-cbb {
+    background-color: rgb(243, 237, 25,0.8);
+}
 
 /* footer */
 .copyright-icon {

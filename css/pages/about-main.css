@@ -1,0 +1,64 @@
+/* this is stylesheet for result page belongs to content page */
+
+/* General for default attributes of this page */
+body {
+    background: url(../../assets/img/content-background.png) no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+.about-navitem-desk {
+    color: black;
+
+    -ms-transform: rotate(-15deg);
+    /* IE 9 */
+    -moz-transform: rotate(-15deg);
+    /* Firefox */
+    -webkit-transform: rotate(-15deg);
+    /* Safari & Chrome */
+    -o-transform: rotate(-15deg);
+    /* General Usage */
+    transform: rotate(-15deg);
+}
+
+.about-navitem-desk a {
+    padding: 10px 20px;
+    margin: 0px 20px;
+
+    color: black;
+    background-color: white;
+}
+
+.about-btn {
+    shape-rendering: geometricPrecision;
+    transition: .5s;
+}
+
+.about-btn:hover {
+    fill: #f3ed19;
+}
+
+/* Main - Codes */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    position: absolute;
+    height: 70%;
+    width: 100%;
+}
+
+/* animation */
+
+
+/* footer */
+.copyright-icon {
+    justify-content: right;
+
+    margin: 0px 30px;
+}
+
+.copyright-icon div{
+    display: none;
+}

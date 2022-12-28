@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VUE Learning</title>
+    <script src="vue.min.js"></script>
+    <script ></script>
+</head>
+<body>
+  <div id="app">
+    <!-- 4. 在页面上使用 -->
+    <Button color="red">我是插槽的值</Button>
+  </div>
+</body>
+
+<footer>
+    <script>
+        import Button from '@/components/Button.vue'
+        export default {
+          name: "app",
+          // 3. 在components中声明组件
+          components: {
+            Button
+          }
+        };
+    </script>
+</footer>
+</html>
