@@ -4,4 +4,4 @@ This is **[CYBERPUNK MUSEUM](https://blackkcold.github.io/cyberpunkmuseum/)** fo
 
 [](https://blackkcold.github.io/cyberpunkmuseum/)
 
-©All Right Reserved by [Haoran Yang](https://www.notion.so/Home-from-Home-Care-Ltd-c1a81ea7b2e642768099b13bf0557525)
+©All Right Reserved by [Haoran Yang](https://home.haoranserver.com)
