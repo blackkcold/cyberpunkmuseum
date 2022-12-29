@@ -61,6 +61,7 @@ main {
 
     /* width: 800px; */
     flex: 1;
+    /* this width is to solve the possible overflow issue, which happens here that the flex ratio is 1:1, but it's no effect. */
     width: 0;
 }
 
@@ -307,21 +308,25 @@ main {
 
 .year-tb {
     flex:2;
+    margin-right: 30px;
+
+    z-index: 0;
 }
 
 .year-tb h5{
     font-family: 'Ranga';
     font-weight: 400;
     font-size: 150px;
-
-
     
     margin: 0;
 }
 
-.year-tb h5 ::after{
-    content: normal;
-    transform: rotateX(180deg);
+.year-tb :last-child{
+    position: absolute;
+    bottom: -120px;
+
+    filter: blur(10px);
+    transform: rotateX(-180deg);
 }
 
 /* animation */
@@ -331,6 +336,8 @@ main {
 /* adjust for the timeline block */
 footer {
     flex-direction: column;
+    
+    z-index: -1;
 }
 
 .copyright-icon {
