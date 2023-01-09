@@ -3,8 +3,10 @@
 @import 'general/header.css';
 @import 'general/footer.css';
 @import 'general/header-logo.css';
+/* import components stylesheet */
+@import 'components/collection-slide.css';
+@import 'components/search-bar.css';
 /* this is index stylesheet */
 @import 'pages/search-main.css';
-@import 'components/collection-slide.css';
 /* this is for general responsive design */
 @import 'general/responsive.css'

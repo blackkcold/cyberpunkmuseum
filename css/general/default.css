@@ -10,6 +10,13 @@ body {
 
     margin: 0px;
     transition: 1s;
+
+    /* customised cursor */
+    cursor: url('../../assets/cursor/default.png'),default;
+}
+
+a {
+    cursor: url('../../assets/cursor/progress.png'),pointer;
 }
 
 h5{
@@ -21,6 +28,8 @@ h5{
 
 p {
     font-size: 10px;
+
+    cursor: url('../../assets/cursor/text.png'),text;
 }
 
 .textalign-left {

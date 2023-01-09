@@ -50,6 +50,9 @@ main {
 }
 
 .search-bar {
+    display: none;
+    /* hide the search bar as the function is in development */
+
     justify-content: center;
     align-items: center;
 
@@ -116,6 +119,8 @@ main {
     border: 3px;
     border-color: white;
     border-style: solid;
+    
+    cursor: url('../../assets/cursor/pointer.png'),pointer;
 }
 
 .bg-card-cbb {

@@ -1,0 +1,50 @@
+/* search bar component */
+
+.search-bar {
+    justify-content: center;
+    align-items: center;
+
+    background:url('../../assets/svg/Search-Bar.svg') no-repeat center center;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 566px;
+    height: 89px;
+
+    color: white;
+
+    transition: .5s;
+}
+
+.search-bar input:first-child {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+
+    color: white;
+
+    margin: 30px;
+}
+
+.search-bar input:first-child{
+    flex: 8;
+}
+
+.search-bar input:first-child:focus{
+    outline: none;
+
+    border: 0px;
+    border-color: transparent;
+}
+
+#submit-btn-search-bar{
+        background-color: transparent;
+        border: 0px transparent;
+        
+        flex: 2;
+        height: 100%;
+}
+
+#submit-btn-search-bar:hover .search-bar svg path{
+    fill: black;
+}

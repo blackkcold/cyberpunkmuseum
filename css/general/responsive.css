@@ -83,7 +83,16 @@
     .year-tb :last-child {
         bottom: -200px;
     }
+
     /* timelin block end */
+
+    /*** adoption of components ***/
+    /* collection slide */
+    /* this is the slide block of relevant work */
+    .collection-slides p {
+        font-size: 30px;
+        font-weight: 300;
+    }
 }
 
 
@@ -287,6 +296,17 @@
         display: none;
     }
 
+    /* adoption of the search bar */
+    .search-bar {
+        width: 360px;
+        height: 56px;
+        background-size: cover;
+    }
+
+    .search-bar input:first-child {
+        margin: 20px;
+    }
+
     /* adoption of result page */
     .results-flow {
         width: 100%;
@@ -332,16 +352,50 @@
     .citation-ccb p {
         font-family: 'Libre Barcode 128';
         font-size: 10px;
-    
+
         margin: 0;
         margin-top: 8px;
     }
 
-    /* this is the slide block of relevant work */
-    .relctx-scroll {
-        display: none;
+    /* end - adoption of exhibition page */
+
+    /* adpotion of about page */
+    .abt-content-blk {
+        width: 90%;
+        margin: 0 auto;
     }
-    
+
+    .bg-acb {
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .bg-acb h5 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .bg-acb p {
+        font-size: 15px;
+    }
+
+    .concept-acb {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .concept-acb img {
+        object-fit: contain;
+        width: 100%;
+        height: 220px;
+    }
+
+    .box-collab-acb {
+        flex-direction: column;
+    }
+
+    /* end - adpotion of about page */
+
     /* this is content text block for text */
     .content-text-block {
         flex: 1;
@@ -405,7 +459,7 @@
     .quote-ctb p {
         font-size: 10px;
     }
-    
+
     .attachinfo-ctb {
         justify-content: center;
     }
@@ -419,7 +473,7 @@
         width: inherit;
         height: inherit;
         padding: 5px;
-    
+
         object-fit: contain;
     }
 
@@ -437,8 +491,36 @@
         position: relative;
         bottom: -60px;
     }
+
     /* timelin block end */
-    
+
+    /*** adoption of components ***/
+    /* search bar */
+    .search-bar {
+        width: 360px;
+        height: 56px;
+        background-size: cover;
+    }
+
+    .search-bar input:first-child {
+        margin: 20px;
+    }
+
+    /* collection slide */
+    /* this is the slide block of relevant work */
+    .relctx-scroll {
+        display: none;
+    }
+
+    .cards-flow {
+        margin-bottom: 0;
+    }
+
+    .collection-slides p {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
 
     /* footer */
     footer {
