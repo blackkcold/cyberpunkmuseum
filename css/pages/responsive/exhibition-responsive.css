@@ -1,0 +1,13 @@
+/* responsive */
+@media screen and (max-width: 900px){
+
+    /* main */
+    main {
+        height: fit-content;
+    }
+
+    /* footer */
+    footer{
+        position:static;
+    }
+}

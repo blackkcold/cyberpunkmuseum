@@ -1,15 +1,105 @@
 /* This is for responsive codes */
+@media screen and (min-width: 1680px) {
+
+    /* Exhibition Page */
+    /* this is content cover block for media */
+    .cover-ccb {
+        width: 100%;
+        height: 65vh;
+        object-fit: cover;
+    }
+
+    /* this is content text block for text */
+    .content-text-block {
+        flex: 0.7;
+        margin: 100px 30px 200px 30px;
+    }
+
+    .frame-ctb {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .title-ctb {
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .title-ctb h5 {
+        font-size: 100px;
+
+        text-shadow: 0px 4px 10px #2CD2E7;
+    }
+
+    .title-ctb div {
+        padding: 10px 20px;
+    }
+
+    .title-ctb div p {
+        font-size: 20px;
+    }
+
+    .title-ctb div :first-child {
+        font-size: 30px;
+    }
+
+
+    .authorinfo-ctb p {
+        font-size: 30px;
+    }
+
+    .authorinfo-ctb :first-child {
+        font-size: 40px;
+    }
+
+    .wiki-ctb p {
+        font-size: 20px;
+    }
+
+    .quote-ctb p {
+        font-size: 20px;
+    }
+
+    .single-attachinfo-ctb {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* timeline block */
+    .period-timeline-tb p {
+        font-size: 40px;
+    }
+
+    .year-tb {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+
+    .year-tb h5 {
+        font-size: 220px;
+    }
+
+    .year-tb :last-child {
+        bottom: -200px;
+    }
+    /* timelin block end */
+}
+
 
 @media screen and (max-width: 1280px) {
+
     /* header */
     #title {
         font-size: 60px;
     }
+
     #title img {
         width: 50px;
     }
+
     /* navbar */
-    .navbar a{
+    .navbar a {
         font-size: 10px;
 
         padding: 6px 15px;
@@ -21,22 +111,22 @@
         margin-right: 50px;
         margin-top: 20px;
     }
-    
+
     .logo a {
         font-size: 12px;
         font-weight: 700;
     }
-    
-    .logo img{
+
+    .logo img {
         width: 10px;
-    }    
+    }
 
     /* index main */
     main {
         height: 80%;
     }
 
-    #index-slogan h5{
+    #index-slogan h5 {
         font-size: 12px;
     }
 
@@ -44,7 +134,7 @@
     .results-flow {
         width: 100%;
     }
-    
+
     /* footer */
     .copyright-icon {
         margin: 0px 30px;
@@ -52,7 +142,8 @@
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
+
     /* header */
     header {
         display: flex;
@@ -61,17 +152,18 @@
 
         height: 100%;
     }
-    
+
     /* navbar ↓*/
-    .navbar{
+    .navbar {
         display: none;
     }
+
     .dropdown {
         position: relative;
         display: inline-block;
     }
 
-    .dropdown img{
+    .dropdown img {
         width: 30px;
 
         margin: 0px 10px;
@@ -81,11 +173,11 @@
         display: none;
         position: absolute;
         z-index: 1;
-        right:0px;
+        right: 0px;
         /* top:50px; */
-        
+
         background-color: white;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
 
         min-width: 120px;
@@ -98,7 +190,7 @@
         display: flex;
         flex-direction: column;
         justify-items: left;
-    
+
         list-style-type: none;
         text-align: center;
 
@@ -107,6 +199,7 @@
 
         transition: 1s;
     }
+
     .dropdown-content li {
         padding: 10px 0px;
         margin: 5px 0px;
@@ -115,13 +208,13 @@
     }
 
     .dropdown-content li:hover {
-        box-shadow:  0px 3px 6px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
 
         background-color: #f3ed19;
         color: black;
     }
 
-    .dropdown-content a{
+    .dropdown-content a {
         text-decoration: none;
         color: black;
 
@@ -131,12 +224,14 @@
     .dropdown:hover .dropdown-content {
         display: block;
     }
+
     /* navbar END ↑*/
 
     /* logo */
     #title {
         font-size: 40px;
     }
+
     #title img {
         width: 30px;
     }
@@ -154,14 +249,15 @@
     .start-btn svg {
         margin-right: 0px;
     }
-    
+
     #start-btn-desk {
         display: none;
     }
-    
+
     #start-btn-mobile {
         display: block;
     }
+
     /* startbtn END ↑*/
 
     #index-slogan {
@@ -176,7 +272,7 @@
     #slogan-img-mobile {
         display: inline;
     }
-    
+
     #slogan-img-desk {
         display: none;
     }
@@ -195,7 +291,7 @@
     .results-flow {
         width: 100%;
     }
-    
+
     .results-card {
         flex-direction: column;
     }
@@ -209,7 +305,148 @@
         margin-top: 0px;
     }
 
+    /* adoption of exhibition page */
+    .ccbNctb {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* this is content cover block for media */
+    .content-cover-block {
+        flex: 1;
+        /* this width is to solve the possible overflow issue, which happens here that the flex ratio is 1:1, but it's no effect. */
+        width: 90%;
+    }
+
+    .cover-ccb {
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+    }
+
+    .citation-ccb {
+        justify-content: end;
+        gap: 10px;
+    }
+
+    .citation-ccb p {
+        font-family: 'Libre Barcode 128';
+        font-size: 10px;
+    
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    /* this is the slide block of relevant work */
+    .relctx-scroll {
+        display: none;
+    }
+    
+    /* this is content text block for text */
+    .content-text-block {
+        flex: 1;
+        /* this width is to solve the possible overflow issue, which happens here 
+        that the flex ratio is 1:1, but it's no effect. */
+        width: 90%;
+        margin: 0px 0px 15px 15px;
+    }
+
+    .frame-ctb {
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 10px;
+
+        padding: 15px;
+    }
+
+    .title-ctb {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-ctb h5 {
+        font-size: 40px;
+        text-shadow: 0px 4px 10px #2CD2E7;
+    }
+
+    .title-ctb div {
+        gap: 10px;
+        padding: 5px 10px;
+
+    }
+
+    .title-ctb div p {
+        font-size: 10px;
+    }
+
+    .title-ctb div :first-child {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .authorinfo-ctb {
+        justify-content: center;
+    }
+
+    .authorinfo-ctb p {
+        font-size: 10px;
+    }
+
+    .authorinfo-ctb :first-child {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .wiki-ctb {
+        border-left: 5px solid rgb(0, 0, 0, 0.5);
+    }
+
+    .quote-ctb p {
+        font-size: 10px;
+    }
+    
+    .attachinfo-ctb {
+        justify-content: center;
+    }
+
+    .single-attachinfo-ctb {
+        width: 40px;
+        height: 40px;
+    }
+
+    .single-attachinfo-ctb img {
+        width: inherit;
+        height: inherit;
+        padding: 5px;
+    
+        object-fit: contain;
+    }
+
+    /* timeline block */
+    .period-timeline-tb p {
+        font-size: 10px;
+    }
+
+    .year-tb h5 {
+        position: absolute;
+        font-size: 100px;
+    }
+
+    .year-tb :last-child {
+        position: relative;
+        bottom: -60px;
+    }
+    /* timelin block end */
+    
+
     /* footer */
+    footer {
+        bottom: 10px;
+
+        overflow: hidden;
+    }
+
     .copyright-icon {
         flex-direction: column;
         justify-content: center;

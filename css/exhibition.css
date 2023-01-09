@@ -6,4 +6,5 @@
 /* this is index stylesheet */
 @import 'pages/exhibition-main.css';
 /* this is for general responsive design */
-@import 'general/responsive.css'
+@import 'general/responsive.css';
+@import 'pages/responsive/exhibition-responsive.css';
