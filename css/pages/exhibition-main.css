@@ -273,13 +273,14 @@ footer {
 
 /* timeline block */
 .timeline-block {
+    position: fixed;
+    bottom: 50px;
+
     width: 100%;
     height: 100px;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-
-    margin-top: 0px;
 }
 
 .timeline-tb {
@@ -334,7 +335,7 @@ footer {
 
 .year-tb :last-child {
     position: absolute;
-    bottom: -120px;
+    bottom: -140px;
 
     filter: blur(10px);
     transform: rotateX(-180deg);

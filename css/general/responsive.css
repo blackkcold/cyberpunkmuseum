@@ -1,5 +1,5 @@
 /* This is for responsive codes */
-@media screen and (min-width: 1680px) {
+@media screen and (min-width: 1800px) {
 
     /* Exhibition Page */
     /* this is content cover block for media */
@@ -67,6 +67,10 @@
     }
 
     /* timeline block */
+    .timeline-block {
+        bottom: 80px;
+    }
+
     .period-timeline-tb p {
         font-size: 40px;
     }
@@ -81,7 +85,7 @@
     }
 
     .year-tb :last-child {
-        bottom: -200px;
+        bottom: -240px;
     }
 
     /* timelin block end */
@@ -478,8 +482,19 @@
     }
 
     /* timeline block */
+    .timeline-block {
+        position: static;
+        overflow: hidden;
+    }
+
+    .timeline-tb {
+        align-items: flex-start;
+    }
+
     .period-timeline-tb p {
         font-size: 10px;
+
+        margin-left: 20px;
     }
 
     .year-tb h5 {
