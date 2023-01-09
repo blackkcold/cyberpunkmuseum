@@ -1,5 +1,7 @@
 /* responsive */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 768px){
+
+    /* header */
 
     /* main */
     main {
@@ -8,6 +10,6 @@
 
     /* footer */
     footer{
-        position:static;
+
     }
 }

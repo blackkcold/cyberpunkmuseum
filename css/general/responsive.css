@@ -120,19 +120,6 @@
     }
 
     /* responsive design for search, content, help pages. */
-    .logo {
-        margin-right: 50px;
-        margin-top: 20px;
-    }
-
-    .logo a {
-        font-size: 12px;
-        font-weight: 700;
-    }
-
-    .logo img {
-        width: 10px;
-    }
 
     /* index main */
     main {
@@ -161,9 +148,12 @@
     header {
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: center;
+        top: 10px;
 
-        height: 100%;
+        width: 100vw;
+
+        margin: 0;
     }
 
     /* navbar ↓*/
@@ -172,22 +162,21 @@
     }
 
     .dropdown {
-        position: relative;
+        position: static;
         display: inline-block;
+
+        padding: 10px;
     }
 
     .dropdown img {
         width: 30px;
-
-        margin: 0px 10px;
     }
 
     .dropdown-content {
         display: none;
         position: absolute;
         z-index: 1;
-        right: 0px;
-        /* top:50px; */
+        right: 30px;
 
         background-color: white;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -361,50 +350,11 @@
         margin-top: 8px;
     }
 
-    /* end - adoption of exhibition page */
-
-    /* adpotion of about page */
-    .abt-content-blk {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .bg-acb {
-        gap: 20px;
-        padding: 15px;
-    }
-
-    .bg-acb h5 {
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    .bg-acb p {
-        font-size: 15px;
-    }
-
-    .concept-acb {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .concept-acb img {
-        object-fit: contain;
-        width: 100%;
-        height: 220px;
-    }
-
-    .box-collab-acb {
-        flex-direction: column;
-    }
-
-    /* end - adpotion of about page */
-
     /* this is content text block for text */
     .content-text-block {
         flex: 1;
         /* this width is to solve the possible overflow issue, which happens here 
-        that the flex ratio is 1:1, but it's no effect. */
+            that the flex ratio is 1:1, but it's no effect. */
         width: 90%;
         margin: 0px 0px 15px 15px;
     }
@@ -507,7 +457,46 @@
         bottom: -60px;
     }
 
-    /* timelin block end */
+    /* timeline block end */
+
+    /* end - adoption of exhibition page */
+
+    /* adpotion of about page */
+    .abt-content-blk {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bg-acb {
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .bg-acb h5 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .bg-acb p {
+        font-size: 15px;
+    }
+
+    .concept-acb {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .concept-acb img {
+        object-fit: contain;
+        width: 100%;
+        height: 220px;
+    }
+
+    .box-collab-acb {
+        flex-direction: column;
+    }
+
+    /* end - adpotion of about page */
 
     /*** adoption of components ***/
     /* search bar */

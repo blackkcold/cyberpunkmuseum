@@ -5,8 +5,10 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     
+    width: 100%;
     margin: 10px;
-    height: 100%;
+
+    z-index: 5;
 }
 
 #title {
