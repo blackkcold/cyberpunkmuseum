@@ -37,8 +37,12 @@
 
     .title-ctb h5 {
         font-size: 100px;
-
+        
         text-shadow: 0px 4px 10px #2CD2E7;
+    }
+
+    #title1-ctb {
+        font-size: 50px;
     }
 
     .title-ctb div {
@@ -52,7 +56,6 @@
     .title-ctb div :first-child {
         font-size: 30px;
     }
-
 
     .authorinfo-ctb p {
         font-size: 30px;
@@ -444,6 +447,8 @@
 
     .title-ctb h5 {
         font-size: 40px;
+        text-align: center;
+
         text-shadow: 0px 4px 10px #2CD2E7;
     }
 

@@ -211,7 +211,7 @@ main {
     align-items: center;
 }
 
-.title-ctb h5 {
+.title-ctb {
     margin: 0;
 
     font-family: 'Rationale';
@@ -221,6 +221,10 @@ main {
     text-shadow: 0px 4px 10px #2CD2E7;
 
     text-transform: uppercase;
+}
+
+#title1-ctb h5{
+    font-size: 30px;
 }
 
 .title-ctb div {
