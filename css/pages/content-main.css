@@ -2,9 +2,11 @@
 
 /* General for default attributes of this page */
 body {
-    background: url(../../assets/img/content-background.png) no-repeat;
+    background: url(../../assets/img/content-background.png) repeat;
     background-color: black;
     background-size: cover;
+
+    overflow-x: hidden;
 }
 
 .content-navitem-desk {
@@ -105,14 +107,20 @@ main {
     transition: .5s;
 }
 
-.column-cbb {
-    flex: 1;
-    gap: inherit;
+.row-cbb {
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    width: 100%;
 
     transition: .5s;
 }
 
 .card-cbb {
+    width: 20%;
+    margin: 20px 5px;
+
     justify-content: center;
     align-items: center;
 

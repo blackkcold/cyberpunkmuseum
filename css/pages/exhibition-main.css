@@ -53,6 +53,8 @@ main {
 
     justify-content: space-between;
     margin-top: 30px;
+
+    transition: .5s;
 }
 
 /* this is content cover block for media */
