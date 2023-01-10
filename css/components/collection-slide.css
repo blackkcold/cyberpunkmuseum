@@ -14,6 +14,11 @@
     height: 400px;
 }
 
+.collection-slides a {
+    text-decoration: none;
+    color: white;
+}
+
 .collection-slides p {
     font-family: 'Rationale';
 
@@ -38,7 +43,7 @@
 
 /* Customised the scrollbar to adopt the style */
 .cards-flow::-webkit-scrollbar {
-    height: 5px;
+    height: 10px;
 }
 
 .cards-flow::-webkit-scrollbar-track {
@@ -80,6 +85,47 @@
     /* animation:mymove 5s infinite;  */
     
 }
+
+/* bunch import imgs */
+.img1-srs,
+.img2-srs,
+.img3-srs,
+.img4-srs,
+.img5-srs,
+.img6-srs,
+.img7-srs {
+    background-size: cover;
+}
+
+.img1-srs {
+    background-image: url('../../assets/poster/cyberpunk-2077-po.jpg');
+}
+
+.img2-srs {
+    background-image: url('../../assets/poster/ghost-in-the-shell-po.jpg');
+}
+
+.img3-srs {
+    background-image: url('../../assets/poster/the-matrix-po.jpg');
+}
+
+.img4-srs {
+    background-image: url('../../assets/poster/akira-po.jpg');
+}
+
+.img5-srs {
+    background-image: url('../../assets/poster/blade-runner-1982-po.jpg');
+}
+
+.img6-srs {
+    background-image: url('../../assets/img/neuromancer_cover.png');
+}
+
+.img7-srs {
+    background-image: url('../../assets/poster/DoAndroidsDream-po.png');
+}
+
+
 
 @keyframes mymove
 {

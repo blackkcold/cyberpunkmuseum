@@ -131,11 +131,16 @@ main {
     cursor: url('../../assets/cursor/pointer.png'),pointer;
 }
 
+.card-cbb a {
+    text-decoration: none;
+    color: white;
+}
+
 .bg-card-cbb {
     justify-content: end;
     align-items: center;
 
-    background: url('../../assets/img/neuromancer_cover.png') no-repeat center center;
+    /* background: url('../../assets/img/neuromancer_cover.png') no-repeat center center; */
     background-color: black;
     background-size: cover;
 
@@ -143,6 +148,10 @@ main {
     height: 300px;
 
     margin: 20px;
+}
+
+.continue-card {
+    background-image: url('../../assets/img/content-background.png');
 }
 
 .info-card-cbb {
@@ -167,8 +176,15 @@ main {
     text-align: center;
 }
 
-.author-info-card-cbb p{
+.author-info-card-cbb {
+    width: 100%;
+
     align-items: center;
+    justify-content: space-between;
+}
+
+.author-info-card-cbb p{
+    text-align: center;
 
     font-size: 16px;
     font-weight: 500;
@@ -203,6 +219,7 @@ main {
 /* animation */
 .card-cbb :hover {
     border-color: #f3ed19;
+    cursor: url('../../assets/cursor/pointer.png'),pointer;
 }
 
 .card-cbb :hover .info-card-cbb {
