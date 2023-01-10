@@ -1,6 +1,15 @@
 /* This is for responsive codes */
 @media screen and (min-width: 1800px) {
 
+    /* header */
+        /* navbar */
+        .navbar a {
+            font-size: 20px;
+    
+            padding: 10px 15px;
+            margin: 0px 40px;
+        }
+
     /* Exhibition Page */
     /* this is content cover block for media */
     .cover-ccb {
